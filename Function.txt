@@ -1,0 +1,19 @@
+def find_sum( a,b):
+    c=a+b
+    print(c)
+#a=int(input("Enter the number"))
+#b=int(input("Enter the number:"))
+#find_sum(a,b)
+
+
+def sum():
+    a=10
+    b=20
+    print(a+b)
+sum()
+
+def diff(a,b):
+    print(b-a)
+#x=int(input("Enter value:"))
+#y=int(input())
+diff(x,y)

@@ -1,0 +1,14 @@
+n=int(input("Enter the number"))
+a=0;
+b=1;
+for i in range(n) :
+    if i==0 :
+        print(str(a));
+    elif i ==1 :
+        print(str(b))
+    elif i>1 :
+        c=a + b;
+        a=b;
+        b=c;
+        print(str(c));
+

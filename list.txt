@@ -1,0 +1,34 @@
+#List: Indexing,ordering and can add as much element as possible.
+a=["Emmanuel","chumathra","cec","s8"]
+print("1",a)
+b=[10,4,31,14]
+print("2",b)
+c=["hello",78,"no"]
+print("3",c)
+d=[["hello","hai"],12,"no"]
+print("4",d)
+a.append("Shine")   # It denote the concatination of the list with another value at the last
+print("5",a)
+a.append([1,2,3])
+print(a)
+a.extend([1,2,3])  # Attach the integer at the end of the list with no list.
+print(a)
+print(a.count([1,2,3])) #count how much [1,2,3] are present in the list.
+
+# Indexing
+print(a[6]);
+print(a[0][4])      #check whether 'a' is present or not then check for the '0' th element then check the '4'th element in the 0 th element.
+print(a[-1])
+b.sort(reverse=True)    #print the list in descending order.
+print(b)
+b.insert(1,3)
+print(b)
+a.pop(0);        # .This pop  out the first  element in the list.  Last element is removed from the list-a.pop()
+print(a.pop())   # Shows the last element popped out
+a.remove(2)      #remove 2 from the list.
+print(a)
+print(len(a))       #Gives the length of a
+a[2]=10
+print(a)
+a[7]=6
+print(a)

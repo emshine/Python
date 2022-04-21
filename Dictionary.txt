@@ -1,0 +1,36 @@
+#Dictionary to store key value pair.
+a={
+    "name":"Emmanuel Shine Joseph",     # Dictionary Declaration .
+    "State":"Kerala",                   # Here keys are name,State,age,roll no and vlues are Emmanuel.kerala .... .
+    "Age":21,
+    "Roll no.":16,
+    "Country":"China"
+}
+a["Gender"]="Male"          # To add new value to the dictionary.
+a["name"]="Anwar"           # Python execute line by line.So it store the last modified value.
+b=a.get("class")            # Will print an output ass "None",get() print the value of the given key.
+c=a.get("Country","India")  # To print the value as default value.If the value is not present in dictionary.
+print("1",b)
+print("2",a)
+print("3",a["name"])
+print("4",c)
+print("5",a.items())
+print("6",a.keys())             #Print the all keys.
+print("7",a.values())           #Print the values.
+b=a.pop("name")
+print("8",b)
+print("9",a)
+b=a.pop("name","Anwar")         # pop(key,default_value)
+print("10",b)
+print("11",a)
+print("12",a.get("name","Emmanuel"))  # To check whether the key is present in the dictionary if not then get/print the default value.
+print("13",a)
+b=a.setdefault("location","chn")       # The key and value is added to the dictionary.
+print("14",b)
+print("15",a)
+ # print(a.pop())                      # print error because dictionary has got no index.
+b ={
+    "Language":"Malayalam"
+}
+a.update(b)                            # Add all the values in the dictionary b into a.
+print(a)
