@@ -1,0 +1,39 @@
+#Tuple : To store value permanently
+
+a=("Emmanuel","Chumathra","Student","21")
+print("1.",a)
+print("2.",a[1])
+# a[1]="Thiruvalla"     Tuple is immutable.Its value cannot be changed.
+
+
+# SET :It doesnot contain duplicates.
+
+b={1,2,3,"Emmanuel"}    # Declaration of set.
+print("3.",b)
+c={1,2,3,1,2,3}
+print("4.",c)
+d=[1,2,3,2,1]
+e=set(d)                #Coverting the list into set.
+print("5.",e)
+e=list(set(d))          #Coverting the set into list.
+print("6.",e)
+f=[1,2,3]
+g={
+    "name":"Emmanuel",
+    "Age":21
+}
+h={1,2,3}
+i=(1,2,3)
+f.append("Emmanuel")
+print(f)
+f.append(g)             #Append the dictionary to the end of the list.
+print("8.",f)
+f.append(h)
+print("9.",f)
+f.append(i)             # We can add dictionary,tuple,list,strings.
+print("10.",f)
+print("11.",f[0])
+print("12.",f[-1][1])
+print("13.",f[-4])
+l=[5,"yes","no"]
+print(l[0:2])

@@ -1,0 +1,15 @@
+def prob(a,b):
+    if a%2==0:
+        if a%2!=0:
+            return(a*b) #if one no. is even and other is odd
+        else:
+            return(a/b) #if both no. is even
+    else:
+        if a%2!=0:
+            return(a+b) #if both no. is odd
+        else:
+            return(a-b) #if one numberis odd and other is even
+x=int(input("Enter the numbers:"))
+y=int(input())
+c=prob(x,y)
+print("The numbers are:"+str(x)+ str(y)+ " " + "their answer after calculation is"+str(c**3))

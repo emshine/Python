@@ -1,0 +1,13 @@
+a=int(input("Enter a number"))
+b=int(input())
+print('Swapping Process')
+#Swappping process begins.
+t=a
+a=b
+b=t
+print("Value after swapping is  " +str(a) +" " +str(b));
+print(type(a));
+#print(len(b));
+c="Hai How are you";
+print(len(c));
+print(lower(a));

@@ -1,0 +1,58 @@
+a=[11,2,3,4,10]
+b=len(a)
+for i in range(b):
+    print(i,a[i])
+print("####################################")
+c=[1,2,3]
+d=(5,6,7,8)
+for i in range(len(c)):
+    for j in range(len(d)):
+        print(i,j)
+
+print("#####################################")
+for i in range(len(c)):
+    for j in range(len(d)):
+        print(c[i],d[j])
+print("######################################")
+x=10
+y=3
+z=x//y      #// - quotient
+            #/ - divide
+            #% - modulus
+            #** - power
+print(z)
+print("######################################")
+# From the list below check whether the number is even or odd,if odd then triple the number else double the  number
+p=[1,10,2,5,8,7]
+for i in range(len(p)):
+    if p[i]%2==0:
+        print(p[i],"." ,p[i]**2)
+    else:
+        print(p[i] ,"." ,p[i]**3)
+print("######################################")
+#From the list "p"
+# if no. is odd and pos is odd then no.*2
+#if no. is odd and position is even then  no.*3
+#if no. is even and position is odd then no. *4
+#if number is even and position is evenm the no.*5
+for i in range(len(p)):
+    if p[i]%2==1 and i%2==1:
+        print(p[i]*2)
+    elif p[i]%2==1 and i%2==0:
+        print(p[i]*3)
+    elif p[i]%2==0 and i%2==1:
+        print(p[i]*4)
+    else:
+        print(p[i]*5)
+# Without using the and operation in loop.
+for i in range (len(p)):
+    if p[i]%2==0:
+        if i%2==0:
+            print(p[i]*5)
+        else :
+            print(p[i]*4)
+    else:
+        if i%2==0:
+            print(p[i]*3)
+        else:
+            print(p[i]*2)
