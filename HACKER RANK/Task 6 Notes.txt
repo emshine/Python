@@ -1,0 +1,35 @@
+List :
+----------
+  1. [expression-involving-loop-variable for loop-variable in sequence]
+	
+	>> ListOfNumbers = [ x for x in range(10) ] # List of integers from 0 to 9
+	>> ListOfNumbers
+	[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  2. expression-involving-loop-variables for outer-loop-variable in outer-sequence for inner-loop-variable in inner-sequence ]
+
+	This is equivalent to writing:
+>>>>>>
+	results = []
+	for outer_loop_variable in outer_sequence:
+    		for inner_loop_variable in inner_sequence:
+        		results.append( expression_involving_loop_variables )
+  >>For example, if you want to generate all combinations of lists  and , write:
+
+		print([[x, y] for x in [1, 2, 3] for y in [4, 5, 6]])
+		[[1, 4], [1, 5], [1, 6], [2, 4], [2, 5], [2, 6], [3, 4], [3, 5], [3, 6]]
+  
+	This is equivalent to:
+
+	>>> results = []
+	>>> for x in [1, 2, 3]:
+		for y in [4, 5, 6]:
+	         results.append([x, y])
+
+		 print(results)
+			[[1, 4], [1, 5], [1, 6], [2, 4], [2, 5], [2, 6], [3, 4], [3, 5], [3, 6]]
+
+
+3.[ expression-involving-loop-variable for loop-variable in sequence if boolean-expression-involving-loop-variable ]
+			>> ListOfThreeMultiples = [x for x in range(10) if x % 3 == 0] # Multiples of 3 below 10
+			>> ListOfThreeMultiples
+				[0, 3, 6, 9]
