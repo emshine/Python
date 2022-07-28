@@ -1,0 +1,8 @@
+n=int(input("Enter the year"))
+m=n
+if n%400==0 and n%100==0:			#To check the year is century year or not.
+    print("The year %d is leap year"%m)
+elif n%4==0 and n%100 != 0 :			#To check the year other than century year.
+    print("The year %d is leap year"%n)
+else:
+    print("The year %d is not a leap year"%n)
