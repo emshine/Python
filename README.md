@@ -9,7 +9,7 @@
                         "year": 1964,
                         "colors": ["red", "white", "blue"]
                      }
- * #### Functions used in Dictionries:
+ * #### Functions used in Dictionaries:
       
           ```Python
               * len()-len(thisdict).Length of dictionary:
