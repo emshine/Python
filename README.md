@@ -9,10 +9,10 @@
                         "year": 1964,
                         "colors": ["red", "white", "blue"]
                      }
-  * Functions used in Dictionries:
+ * Functions used in Dictionries:
       Length of dictionary:
           ```Python
-              len()-len(thisdict).
+              ** len()-len(thisdict).
               get()-ex: x = thisdict.get("model").
               keys()-gives the set of all the keys. ex:x=thisdict.keys().
               values()-gives all the values in the dictionary. ex:x=thisdictvalues().
@@ -25,7 +25,7 @@
               popitem()-	Removes the last inserted key-value pair.
               copy()-make a copy of dictionary.ex:-my=thisdict.copy() .
          ```
-    * Looping :
+ * Looping :
           Print the values in the dictionaries:    
           for x in thisdict:
             print(thisdict[x])
