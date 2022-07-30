@@ -26,7 +26,7 @@
               * copy()-make a copy of dictionary.ex:-my=thisdict.copy() .
          ```
  * #### Looping :
-         *  Print the values in the dictionaries:    
+   *  Print the values in the dictionaries:    
            * for x in thisdict:
             print(thisdict[x])
            * for x in thisdict.values():
