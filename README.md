@@ -2,7 +2,7 @@
 
 ## Dictionaries:
   Dictionaries are used to store data's in a key:value pair.Usually the data's in dictionaries are - ordered changable,no duplicates are allowed.The values in dictionary items can be of any data type.
-  Example:
+* Example:
           thisdict = {
                        "brand": "Ford",
                         "model": "Mustang",
