@@ -12,7 +12,7 @@
  * #### Functions used in Dictionaries:
       
           ```Python
-              * len()-len(thisdict).Length of dictionary:
+              * len()-len(thisdict).Length of dictionary.
               * get()-ex: x = thisdict.get("model").
               * keys()-gives the set of all the keys. ex:x=thisdict.keys().
               * values()-gives all the values in the dictionary. ex:x=thisdictvalues().
