@@ -25,7 +25,7 @@
               popitem()-	Removes the last inserted key-value pair.
               copy()-make a copy of dictionary.ex:-my=thisdict.copy() .
          ```
-    *Looping :
+    * Looping :
           Print the values in the dictionaries:    
           for x in thisdict:
             print(thisdict[x])
