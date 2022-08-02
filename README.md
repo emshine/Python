@@ -1,5 +1,12 @@
 # Python
 
+## Variables:
+  * Variables does not begins with number.
+  * Variables are separated by underscore and they are called snake cases.ex E_fg.
+  * Variables can have small letter ,capital letter as well as numbers.
+## Comments
+  * # - For single line comment
+  * ''' ''' - For multi line comment
 ## Dictionaries:
   Dictionaries are used to store data's in a key:value pair.Usually the data's in dictionaries are - ordered changable,no duplicates are allowed.The values in dictionary items can be of any data type.
 * Example:
@@ -35,5 +42,7 @@
             print(x)
            * for x in thisdict.keys():
             print(x)
-          
+  ## String:
+    * String is enclosed in double quotes g= "hello".
+    
     
