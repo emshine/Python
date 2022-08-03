@@ -45,20 +45,21 @@
   ## String:
    * String is enclosed in double quotes g= "hello".
 ## List:
-  Lists are used to store multiple items in a single variable.Lists are created using square brackets.List items are ordered, changeable, and allow duplicate values.
-  List items are indexed, the first item has index [0], the second item has index [1] etc.Negative indexing means start from the end -1 refers to the last item, -2       refers to the second last item etc.
+  * Lists are used to store multiple items in a single variable.Lists are created using square brackets.
+  * List items are ordered, changeable, and allow duplicate values.
+  * List items are indexed, the first item has index [0], the second item has index [1] etc.Negative indexing means start from the end -1 refers to the last item, -2       refers to the second last item etc.
   Example:
-    ```Python
+    ```
     thislist = ["apple", 17, ["cherry",20]]
     print(thislist) 
    ```
- * To change a range of list values.
+  * To change a range of list values.
     Example:
-    ``` Python
+    ``` 
      thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
      thislist[1:3]=["cherry","kiwi"]
     ```
- * #### Functions used in Lists:
+  * ## Functions used in Lists:
      ``` 
       * len() - To find the length of the list.ex: len(thislist)
       * list() - It is used to convert a set or any to list.
@@ -79,4 +80,4 @@
       * reverse() - Reverse the current sorting order.Ex:-thislist.reverse()
       * copy(),list() - To create the copy of the list.Ex: x=thislist.copy(),x=list(thislist)
       * index() - 	Returns the index of the first element with the specified value.
-       
+    ```   
