@@ -82,4 +82,11 @@
       * copy(),list() - To create the copy of the list.Ex: x=thislist.copy(),x=list(thislist)
       * index() - 	Returns the index of the first element with the specified value.
     ```   
-## Sets:
+## Tuples:
+ * Tuples are used to items in a single variable.
+ * Tuples are unchangeable ,allow duplicate values and ordered.
+ * Examples:
+    ```
+    Tuple = ("Emmanuel","Addrress")
+    print(Tuples)
+    ```
