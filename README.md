@@ -5,7 +5,7 @@
   * Variables are separated by underscore and they are called snake cases.ex E_fg.
   * Variables can have small letter ,capital letter as well as numbers.
 ## Comments
-  *' # '- For single line comment
+  * '#'- For single line comment
   * ''' ''' - For multi line comment
 ## Dictionaries:
   Dictionaries are used to store data's in a key:value pair.Usually the data's in dictionaries are - ordered changable,no duplicates are allowed.The values in dictionary items can be of any data type.
@@ -50,8 +50,7 @@
   Example:
     ```
     thislist = ["apple", 17, ["cherry",20]]
-    print(thislist)
-   
+    print(thislist) 
    ```
   * To change a range of list values.
     Example:
@@ -71,7 +70,7 @@
           this=["Emmanuel",21]
           address=["Kerala","India"]
           this.extend(address)
-         ```
+       ```
       * remove() - Remove a specified item from the list.
       * pop() - Remove the last item.If it has the index then it removes the item in that index.
       * clear() - Empties the list . ex: thislist.clear()
