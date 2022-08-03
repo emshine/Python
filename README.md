@@ -48,17 +48,17 @@
   Lists are used to store multiple items in a single variable.Lists are created using square brackets.List items are ordered, changeable, and allow duplicate values.
   List items are indexed, the first item has index [0], the second item has index [1] etc.Negative indexing means start from the end -1 refers to the last item, -2       refers to the second last item etc.
   Example:
-    ```
+    ```Python
     thislist = ["apple", 17, ["cherry",20]]
     print(thislist) 
    ```
-  * To change a range of list values.
+ * To change a range of list values.
     Example:
-    ```
+    ``` Python
      thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
      thislist[1:3]=["cherry","kiwi"]
-    ''' 
-  * ####Functions used in Lists:
+    ```
+ * #### Functions used in Lists:
      ``` 
       * len() - To find the length of the list.ex: len(thislist)
       * list() - It is used to convert a set or any to list.
@@ -66,11 +66,11 @@
       * append() - To add an item to the end of the list.ex: thislist.append("shamam")
       * extend() - To append another list to the current list at the end.
          Example:
-         '''
+         ```
           this=["Emmanuel",21]
           address=["Kerala","India"]
           this.extend(address)
-       ```
+         ```
       * remove() - Remove a specified item from the list.
       * pop() - Remove the last item.If it has the index then it removes the item in that index.
       * clear() - Empties the list . ex: thislist.clear()
@@ -79,3 +79,4 @@
       * reverse() - Reverse the current sorting order.Ex:-thislist.reverse()
       * copy(),list() - To create the copy of the list.Ex: x=thislist.copy(),x=list(thislist)
       * index() - 	Returns the index of the first element with the specified value.
+       
