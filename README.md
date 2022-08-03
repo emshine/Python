@@ -53,13 +53,13 @@
     thislist = ["apple", 17, ["cherry",20]]
     print(thislist) 
    ```
-* To change a range of list values.
+** To change a range of list values. **
     Example:
     ``` 
      thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
      thislist[1:3]=["cherry","kiwi"]
     ```
-* ## Functions used in Lists:
+** Functions used in Lists: **
      ``` 
       * len() - To find the length of the list.ex: len(thislist)
       * list() - It is used to convert a set or any to list.
