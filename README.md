@@ -17,6 +17,12 @@
                         "year": 1964,
                         "colors": ["red", "white", "blue"]
                      }
+                     
+                     
+          newdict = {
+                      ("name":"Emmanuel","age":21),
+                      ("name":"Kiran","age":21)
+                      }
        ```
  * #### Functions used in Dictionaries:
       
@@ -33,6 +39,7 @@
               * clear()-method empties the dictionary: ex:=thisdict.clear().
               * popitem()-	Removes the last inserted key-value pair.
               * copy()-make a copy of dictionary.ex:-my=thisdict.copy() .
+              *dict()- Convert the set or list to dictionary.ex: x=dict(hai)
          ```
  * #### Looping :
    * ##### Print the values in the dictionaries:    
