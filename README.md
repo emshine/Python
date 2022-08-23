@@ -107,9 +107,9 @@
   * #### Add items:
     * Since tuples is unchangeable it is possible to add the items by converting the tuples into list and then back to tuples.
       ```
-     h = list(Tuples)
-     h.append(23)
-     Tuples = tuples(h)
+      h = list(Tuples)
+      h.append(23)
+      Tuples = tuples(h)
       ```
      * Same method is used to remove a tuples by using remove() keyword.ex: h.remove("Emmanuel")
      * We can add an item into the tuple by adding a tuple into it. F
