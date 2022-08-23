@@ -104,7 +104,7 @@
     Tuples = ("Emmanuel","Address")
     print(Tuples[1])
     ```
-  * ### Add items:
+  * #### Add items:
     * Since tuples is unchangeable it is possible to add the items by converting the tuples into list and then back to tuples.
      ```
      h = list(Tuples)
@@ -118,5 +118,30 @@
       y= ("Orange",)
       Tuples+=y
       ```
-    
+  * Tuple items can be of any data type.
+   ```
+   fruits = ("apple", "banana", "cherry")
+
+    (green, yellow, red) = fruits
+
+     print(green)
+     print(yellow)
+     print(red*)
+     
+     -----
+     Output:
+     apple
+     banana
+     ['cherry', 'strawberry', 'raspberry']
+     ```
+  * To join two tuples.
+     ```
+     tuple1 = ("a", "b" , "c")
+     tuple2 = (1, 2, 3)
+     tuple3 = tuple1 + tuple2
+     print(tuple3)
+     ```
+  * #### Functions:
+    * count():Returns the number of times a specified value occurs in a tuple.
+    * len() : Returns the length of the tuples.
   
