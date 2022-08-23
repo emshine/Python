@@ -98,3 +98,11 @@
     Tuple = ("Emmanuel","Addrress")
     print(Tuples)
     ```
+ * Tuple items can be of any data type.
+ * We can access items in the tuples by using the index.
+   ```
+    Tuples = ("Emmanuel","Address")
+    print(Tuples[1])
+    ```
+  * ## Add items:
+  
