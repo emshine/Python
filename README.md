@@ -114,9 +114,9 @@
      * Same method is used to remove a tuples by using remove() keyword.ex: h.remove("Emmanuel")
      * We can add an item into the tuple by adding a tuple into it. F
         ```
-      Tuples = ("Emmanuel","Address")
-      y= ("Orange",)
-      Tuples+=y
+         Tuples = ("Emmanuel","Address")
+         y= ("Orange",)
+         Tuples+=y
         ```
   * Tuple items can be of any data type.
      ```
