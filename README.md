@@ -142,4 +142,10 @@
   * #### Functions:
     * count():Returns the number of times a specified value occurs in a tuple.
     * len() : Returns the length of the tuples.
-  
+    * isinstance: It mostly occur in if statement.
+      ```
+       def add(car,Car):
+        raise Type Error(f"If Error occur with the {car,Car} if car is not taking object from Car")
+       
+       car = Car['Ford','Maruthi']
+       add(car)
