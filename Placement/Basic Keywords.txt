@@ -19,4 +19,5 @@ print("15",b.replace("m","a",1))  #rreplaces only one m in EmmANueL
 print("16",b)                     #string is immutable.
 print("17",b.swapcase())          #converts each letters into corresponding upper and lower case.
 print("18",max(b))
+
 print("19",min(b))
