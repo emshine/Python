@@ -1,0 +1,30 @@
+s = input("Enter the number:")
+f = input("Enter the number:")
+try:
+    g = s / int(f)
+except Exception as e:
+    print("Exception occured:", type(e).__name__)
+    g = None
+print("Division is :",g)
+
+
+----------------------------------------------------------
+OUTPUT:
+Enter the number:atr
+Enter the number:gf
+Exception occured: ValueError
+Division is : None
+
+
+Enter the number:4
+Enter the number:0
+Exception occured: TypeError
+Division is : None
+
+if we use 
+    g = int(s)/int(f):
+then 
+Enter the number:2
+Enter the number:0
+Exception occured: ZeroDivisionError
+Division is : None
