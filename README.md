@@ -149,3 +149,20 @@
        
        car = Car['Ford','Maruthi']
        add(car)
+      ```
+## Errors:
+ * #### Name Error: Name error occur when you try to reference some variable which hasnt been defined in the code.
+ * #### Index Error: It is raised when a sequence is raised which is out of order.
+ * #### Key Error: It is raised when we attempt to access a key that isn't used.
+ * #### Type Error: It is raised when an operation or function is applied to an object of inappropriate type.
+ * #### Value Error:It is raised when a built in operation or function receives an argument that has the right type but an invalid value.
+  ```
+   for i in range 20.5:
+  ```
+ * #### Attribute Error:Raised whe we try to access an attribute that is not possessed by that object.
+   ```
+    F = ['R','J']
+    S = ['K','I']
+    F.intersection(s) ## Which is not possible because intersection is only possible for set.
+   ```
+ * #### Indentation Error : Occurs when their is insufficient spce between the lines.
