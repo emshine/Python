@@ -179,3 +179,9 @@
   * __str__ : The __str__ method requires one positional argument – self – and it returns a string. It is called when an object is passed to the str() constructor. Le
 
 #### Refer the [Github page:](https://github.com/emshine/Python/blob/main/Basic/Classes).
+## Inheritance :
+ * Inheritance allows us to define a class that inherits all the methods and properties from another class. 
+ * Parent class is the class being inherited from, also called base class. 
+ * Child class is the class that inherits from another class, also called derived class.
+ #### Multiple Inheritance:
+  Read the following page for more information.[Read it](https://www.techbeamers.com/python-multiple-inheritance/).
