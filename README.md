@@ -177,3 +177,5 @@
    They are __init__ ,__getitem__,___len__,__repr__,__str__,__eq__
   * __init__ : The __init__ method of an object executes right away after the instance creation. Here, the method takes one positional argument – self – and any number of optional or keyword arguments. 
   * __str__ : The __str__ method requires one positional argument – self – and it returns a string. It is called when an object is passed to the str() constructor. Le
+
+#### Refer the [Github page:](https://github.com/emshine/Python/blob/main/Basic/Classes).
