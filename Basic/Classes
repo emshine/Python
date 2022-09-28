@@ -1,0 +1,37 @@
+class Student:
+
+    def __init__(self, sname, sgrade):
+        self.name = sname
+        self.grade = sgrade
+
+    def average(self):
+        return sum((self.grade)) / len((self.grade))
+
+
+student_one = Student("Emmanuel", [23, 34, 45, 56])
+print(student_one.name)
+p = student_one.average()
+print(p)
+
+class Garage():
+    def __init__(self,name):
+        self.cars = ["Maruti"]
+        self.name = name
+
+    def __len__(self):
+        return(len(self.cars))
+    def __getitem__(self, i):
+        return self.cars[i]
+    def __repr__(self):
+        return f'obect:{self.cars}{self.name}'
+    def __add__(self, other):
+        return other +  self.name
+ford = Garage("Danny")
+ford2 = Garage("Emmanuel")
+ford.cars.append("Volkswagen")
+ford.cars.insert(0,"Benz")
+print(ford.cars)
+print(len(ford)) ## We cannot access it without __len__ . because len() is appllicable for object.
+print(ford[0]) ## We cannot access it without __getname__ .
+print(ford) ## We cannot print the object 'ford' but with the help of __repr__ we can access the object.
+print( ford2 + "hello") ## It is used to concattinate a string to the object with the help of __add__ . 
