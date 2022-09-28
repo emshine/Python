@@ -166,3 +166,14 @@
     F.intersection(s) ## Which is not possible because intersection is only possible for set.
    ```
  * Indentation Error : Occurs when their is insufficient spce between the lines.
+ 
+## Object Oriented Programming:
+ ## Class:
+  * It is an abstration of some entities which contain common object and methods.
+  * Object : Specific instantsce of a class.They have similar behaviour but actual values are different.
+  *  (self) : Refers to the object that is currently modifying.
+  #### Magic Methods or Dunder Methods:
+  A method that is wrapped by two underscores on both sides is called Magic Methods. The motive behind the magic method is to overload Python’s built-in methods and its operators. Here, _syntax prevents the programmers from defining the same name for custom methods. Each magic method serves its purpose.
+   They are __init__ ,__getitem__,___len__,__repr__,__str__,__eq__
+  * __init__ : The __init__ method of an object executes right away after the instance creation. Here, the method takes one positional argument – self – and any number of optional or keyword arguments. 
+  * __str__ : The __str__ method requires one positional argument – self – and it returns a string. It is called when an object is passed to the str() constructor. Le
