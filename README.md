@@ -167,6 +167,7 @@
    ```
  * Indentation Error : Occurs when their is insufficient spce between the lines.
 ### Map:
+*  map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
  ```
   s = [1,2,3]
   doubled = map(double,s]
