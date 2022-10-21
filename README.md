@@ -121,10 +121,10 @@
   * Tuple items can be of any data type.
      ```
       fruits = ("apple", "banana", "cherry")
-      (green, yellow, red) = fruits
+      (green, yellow, *red) = fruits
       print(green)
       print(yellow)
-      print(red*)
+      print(red)
      
       -----
       Output:
